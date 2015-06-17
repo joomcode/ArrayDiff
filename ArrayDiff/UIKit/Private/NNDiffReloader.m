@@ -42,7 +42,7 @@
         
         for (NNSectionsDiffChange *change in diff.changed) {
             if (change.type == NNDiffChangeUpdate) {
-                if (options.useUpdateBlockForReload) {
+                if (options.shouldUseUpdateBlockForReload(change.after)) {
                     [indexPathsToUpdateWithBlock addObject:change.after];
                 } else {
                     if (options.useMoveIfPossible) {

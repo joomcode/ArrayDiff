@@ -12,7 +12,7 @@
 
 @property (nonatomic, copy) void (^cellUpdateBlock)(id cell, NSIndexPath *indexPath);
 
-@property (nonatomic, assign) BOOL useUpdateBlockForReload;
+@property (nonatomic, copy) BOOL (^shouldUseUpdateBlockForReload)(NSIndexPath *indexPath);
 
 @property (nonatomic, assign) BOOL useMoveIfPossible;
 

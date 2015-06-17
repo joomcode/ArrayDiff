@@ -10,4 +10,14 @@
 
 @implementation NNDiffReloadOptions
 
+- (instancetype)init {
+    self = [super init];
+    if (self) {
+        _shouldUseUpdateBlockForReload = ^(NSIndexPath *_) {
+            return NO;
+        };
+    }
+    return self;
+}
+
 @end
