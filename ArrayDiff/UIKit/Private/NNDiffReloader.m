@@ -34,6 +34,10 @@
     NSMutableArray *indexPathsToUpdateWithBlock = [NSMutableArray array];
     
     [self performUpdates:^{
+        if (options.dataSourceUpdateBlock) {
+            options.dataSourceUpdateBlock();
+        }
+                
         [self deleteSections:diff.deletedSections];
         [self insertSections:diff.insertedSections];
         

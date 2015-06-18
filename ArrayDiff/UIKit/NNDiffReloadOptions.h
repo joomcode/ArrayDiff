@@ -14,6 +14,8 @@
 
 @property (nonatomic, copy) BOOL (^shouldUseUpdateBlockForReload)(NSIndexPath *indexPath);
 
+@property (nonatomic, copy) void (^dataSourceUpdateBlock)();
+
 @property (nonatomic, assign) BOOL useMoveIfPossible;
 
 @end
