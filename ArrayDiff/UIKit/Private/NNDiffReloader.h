@@ -33,6 +33,4 @@
 
 - (id)cellForItemAtIndexPath:(NSIndexPath *)indexPath;
 
-- (void)reloadData;
-
 @end

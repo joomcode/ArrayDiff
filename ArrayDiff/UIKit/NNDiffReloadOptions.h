@@ -18,6 +18,4 @@
 
 @property (nonatomic, assign) BOOL useMoveIfPossible;
 
-@property (nonatomic, assign) BOOL forceReloadData;
-
 @end

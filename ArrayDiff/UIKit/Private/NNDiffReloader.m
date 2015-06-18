@@ -28,11 +28,6 @@
         return;
     }
     
-    if (options.forceReloadData) {
-        [self reloadData];
-        return;
-    }
-    
     diff = [self sanitizeDiff:diff];
     
     NNSectionsDiffTracker *tracker = [[NNSectionsDiffTracker alloc] initWithSectionsDiff:diff];
@@ -42,7 +37,7 @@
         if (options.dataSourceUpdateBlock) {
             options.dataSourceUpdateBlock();
         }
-        
+                
         [self deleteSections:diff.deletedSections];
         [self insertSections:diff.insertedSections];
         
@@ -153,7 +148,5 @@
 - (void)moveItemAtIndexPath:(NSIndexPath *)indexPath toIndexPath:(NSIndexPath *)newIndexPath { methodNotImplemented(); }
 
 - (id)cellForItemAtIndexPath:(NSIndexPath *)indexPath { methodNotImplemented(); }
-
-- (void)reloadData { methodNotImplemented(); }
 
 @end

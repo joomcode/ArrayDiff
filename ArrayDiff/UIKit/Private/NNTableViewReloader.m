@@ -82,8 +82,4 @@
     return [self.tableView cellForRowAtIndexPath:indexPath];
 }
 
-- (void)reloadData {
-    [self reloadData];
-}
-
 @end
