@@ -71,4 +71,8 @@
     return [self.collectionView cellForItemAtIndexPath:indexPath];
 }
 
+- (void)reloadData {
+    [self reloadData];
+}
+
 @end
