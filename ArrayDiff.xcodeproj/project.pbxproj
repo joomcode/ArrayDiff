@@ -118,7 +118,6 @@
 		A7CE14141A35EA3B009608C4 /* NNTableViewDiffReloadAnimations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNTableViewDiffReloadAnimations.m; sourceTree = "<group>"; };
 		A7CE14161A35EB6C009608C4 /* NNDiffReloadOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNDiffReloadOptions.h; sourceTree = "<group>"; };
 		A7CE14171A35EB6C009608C4 /* NNDiffReloadOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNDiffReloadOptions.m; sourceTree = "<group>"; };
-		A7FFB45218FB184600510BF2 /* ArrayDiff.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArrayDiff.h; sourceTree = "<group>"; };
 		EA5D5D24CCF25FAA13E7E961 /* Pods-ArrayDiffTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArrayDiffTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArrayDiffTests/Pods-ArrayDiffTests.release.xcconfig"; sourceTree = "<group>"; };
 		EBB6810C58D201553E68FB6D /* Pods-ArrayDiffTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArrayDiffTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArrayDiffTests/Pods-ArrayDiffTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -146,21 +145,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		559A60F325BE11EE00AB7053 /* ArrayDiff */ = {
-			isa = PBXGroup;
-			children = (
-				559A60F425BE11EE00AB7053 /* ArrayDiff.h */,
-				559A60F525BE11EE00AB7053 /* Info.plist */,
-			);
-			path = ArrayDiff;
-			sourceTree = "<group>";
-		};
 		A792C70418F98A780095EA22 = {
 			isa = PBXGroup;
 			children = (
 				A792C71218F98A780095EA22 /* ArrayDiff */,
 				A792C72618F98A780095EA22 /* ArrayDiffTests */,
-				559A60F325BE11EE00AB7053 /* ArrayDiff */,
 				A792C70F18F98A780095EA22 /* Frameworks */,
 				A792C70E18F98A780095EA22 /* Products */,
 				D4EDA825E8F7B54FDB0B0B43 /* Pods */,
@@ -195,7 +184,7 @@
 				A792C74F18F9EBA90095EA22 /* CoreData */,
 				A792C75218F9EBA90095EA22 /* UIKit */,
 				A792C71318F98A780095EA22 /* Supporting Files */,
-				A7FFB45218FB184600510BF2 /* ArrayDiff.h */,
+				559A60F425BE11EE00AB7053 /* ArrayDiff.h */,
 				A792C71518F98A780095EA22 /* NNArrayDiff.h */,
 				A792C71718F98A780095EA22 /* NNArrayDiff.m */,
 				A71BC2771A340676001DADB7 /* NNDiffChangeType.h */,
@@ -213,6 +202,7 @@
 				A71BC2721A33EA92001DADB7 /* NNSectionsDiffCalculator.m */,
 				A7C5F5C6190476FA0087C063 /* NNSection.h */,
 				A7C5F5C7190476FA0087C063 /* NNSection.m */,
+				559A60F525BE11EE00AB7053 /* Info.plist */,
 			);
 			path = ArrayDiff;
 			sourceTree = "<group>";

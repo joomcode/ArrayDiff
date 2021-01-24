@@ -6,16 +6,19 @@
 //  Copyright (c) 2014 Nick Tymchenko. All rights reserved.
 //
 
-#import "NNArrayDiff.h"
-#import "NNArrayDiffChange.h"
-#import "NNSectionsDiff.h"
-#import "NNSectionsDiffChange.h"
-#import "NNSection.h"
+//! Project version number for NNArrayDiff.
+FOUNDATION_EXPORT double NNArrayDiffVersionNumber;
 
-#import "NNArrayDiffCalculator.h"
-#import "NNSectionsDiffCalculator.h"
+//! Project version string for NNArrayDiff.
+FOUNDATION_EXPORT const unsigned char NNArrayDiffVersionString[];
 
-#import "NNFetchedResultsControllerDiffAdapter.h"
-
-#import "UITableView+NNSectionsDiff.h"
-#import "UICollectionView+NNSectionsDiff.h"
+#import <NNArrayDiff/NNArrayDiff.h>
+#import <NNArrayDiff/NNArrayDiffChange.h>
+#import <NNArrayDiff/NNSectionsDiff.h>
+#import <NNArrayDiff/NNSectionsDiffChange.h>
+#import <NNArrayDiff/NNSection.h>
+#import <NNArrayDiff/NNArrayDiffCalculator.h>
+#import <NNArrayDiff/NNSectionsDiffCalculator.h>
+#import <NNArrayDiff/NNFetchedResultsControllerDiffAdapter.h>
+#import <NNArrayDiff/UITableView+NNSectionsDiff.h>
+#import <NNArrayDiff/UICollectionView+NNSectionsDiff.h>
