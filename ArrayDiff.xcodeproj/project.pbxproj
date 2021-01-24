@@ -66,7 +66,7 @@
 		2F44AD71A1DE55DB2928F27A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		4C1E69DA8B464A3F8AC22FCF /* libPods-ArrayDiffTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ArrayDiffTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		554F9F8A25BE1958006E83AB /* UIKitWorkarounds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKitWorkarounds.framework; path = Carthage/Build/iOS/UIKitWorkarounds.framework; sourceTree = "<group>"; };
-		559A60F225BE11EE00AB7053 /* NNArrayDiff.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NNArrayDiff.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		559A60F225BE11EE00AB7053 /* ArrayDiff.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ArrayDiff.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		559A60F425BE11EE00AB7053 /* ArrayDiff.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArrayDiff.h; sourceTree = "<group>"; };
 		559A60F525BE11EE00AB7053 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D888ACF50FE3358F532AE2E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -160,7 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				A792C71D18F98A780095EA22 /* ArrayDiffTests.xctest */,
-				559A60F225BE11EE00AB7053 /* NNArrayDiff.framework */,
+				559A60F225BE11EE00AB7053 /* ArrayDiff.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -320,9 +320,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		559A60F125BE11EE00AB7053 /* NNArrayDiff */ = {
+		559A60F125BE11EE00AB7053 /* ArrayDiff */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 559A60F725BE11EE00AB7053 /* Build configuration list for PBXNativeTarget "NNArrayDiff" */;
+			buildConfigurationList = 559A60F725BE11EE00AB7053 /* Build configuration list for PBXNativeTarget "ArrayDiff" */;
 			buildPhases = (
 				559A60ED25BE11EE00AB7053 /* Headers */,
 				559A60EE25BE11EE00AB7053 /* Sources */,
@@ -334,9 +334,9 @@
 			);
 			dependencies = (
 			);
-			name = NNArrayDiff;
+			name = ArrayDiff;
 			productName = ArrayDiff;
-			productReference = 559A60F225BE11EE00AB7053 /* NNArrayDiff.framework */;
+			productReference = 559A60F225BE11EE00AB7053 /* ArrayDiff.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A792C71C18F98A780095EA22 /* ArrayDiffTests */ = {
@@ -388,7 +388,7 @@
 			projectRoot = "";
 			targets = (
 				A792C71C18F98A780095EA22 /* ArrayDiffTests */,
-				559A60F125BE11EE00AB7053 /* NNArrayDiff */,
+				559A60F125BE11EE00AB7053 /* ArrayDiff */,
 			);
 		};
 /* End PBXProject section */
@@ -716,7 +716,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		559A60F725BE11EE00AB7053 /* Build configuration list for PBXNativeTarget "NNArrayDiff" */ = {
+		559A60F725BE11EE00AB7053 /* Build configuration list for PBXNativeTarget "ArrayDiff" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				559A60F825BE11EE00AB7053 /* Debug */,

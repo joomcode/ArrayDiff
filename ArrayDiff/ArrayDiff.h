@@ -7,18 +7,18 @@
 //
 
 //! Project version number for NNArrayDiff.
-FOUNDATION_EXPORT double NNArrayDiffVersionNumber;
+FOUNDATION_EXPORT double ArrayDiffVersionNumber;
 
 //! Project version string for NNArrayDiff.
-FOUNDATION_EXPORT const unsigned char NNArrayDiffVersionString[];
+FOUNDATION_EXPORT const unsigned char ArrayDiffVersionString[];
 
-#import <NNArrayDiff/NNArrayDiff.h>
-#import <NNArrayDiff/NNArrayDiffChange.h>
-#import <NNArrayDiff/NNSectionsDiff.h>
-#import <NNArrayDiff/NNSectionsDiffChange.h>
-#import <NNArrayDiff/NNSection.h>
-#import <NNArrayDiff/NNArrayDiffCalculator.h>
-#import <NNArrayDiff/NNSectionsDiffCalculator.h>
-#import <NNArrayDiff/NNFetchedResultsControllerDiffAdapter.h>
-#import <NNArrayDiff/UITableView+NNSectionsDiff.h>
-#import <NNArrayDiff/UICollectionView+NNSectionsDiff.h>
+#import <ArrayDiff/NNArrayDiff.h>
+#import <ArrayDiff/NNArrayDiffChange.h>
+#import <ArrayDiff/NNSectionsDiff.h>
+#import <ArrayDiff/NNSectionsDiffChange.h>
+#import <ArrayDiff/NNSection.h>
+#import <ArrayDiff/NNArrayDiffCalculator.h>
+#import <ArrayDiff/NNSectionsDiffCalculator.h>
+#import <ArrayDiff/NNFetchedResultsControllerDiffAdapter.h>
+#import <ArrayDiff/UITableView+NNSectionsDiff.h>
+#import <ArrayDiff/UICollectionView+NNSectionsDiff.h>
