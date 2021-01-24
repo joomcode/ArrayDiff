@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "559A60F125BE11EE00AB7053"
-               BuildableName = "ArrayDiff.framework"
-               BlueprintName = "ArrayDiff"
+               BuildableName = "NNArrayDiff.framework"
+               BlueprintName = "NNArrayDiff"
                ReferencedContainer = "container:ArrayDiff.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -54,8 +54,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "559A60F125BE11EE00AB7053"
-            BuildableName = "ArrayDiff.framework"
-            BlueprintName = "ArrayDiff"
+            BuildableName = "NNArrayDiff.framework"
+            BlueprintName = "NNArrayDiff"
             ReferencedContainer = "container:ArrayDiff.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
