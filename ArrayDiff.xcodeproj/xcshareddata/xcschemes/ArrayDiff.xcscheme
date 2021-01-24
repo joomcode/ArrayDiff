@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A792C70C18F98A780095EA22"
-               BuildableName = "libArrayDiff.a"
+               BlueprintIdentifier = "559A60F125BE11EE00AB7053"
+               BuildableName = "ArrayDiff.framework"
                BlueprintName = "ArrayDiff"
                ReferencedContainer = "container:ArrayDiff.xcodeproj">
             </BuildableReference>
@@ -39,8 +39,6 @@
             </BuildableReference>
          </TestableReference>
       </Testables>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -55,14 +53,12 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A792C70C18F98A780095EA22"
-            BuildableName = "libArrayDiff.a"
+            BlueprintIdentifier = "559A60F125BE11EE00AB7053"
+            BuildableName = "ArrayDiff.framework"
             BlueprintName = "ArrayDiff"
             ReferencedContainer = "container:ArrayDiff.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
