@@ -17,6 +17,10 @@
 		5516164B25BE2AE1006BD882 /* UICollectionView+NNSectionsDiff.h in Headers */ = {isa = PBXBuildFile; fileRef = A792C75318F9EBA90095EA22 /* UICollectionView+NNSectionsDiff.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5516164E25BE2AF0006BD882 /* UITableView+NNSectionsDiff.h in Headers */ = {isa = PBXBuildFile; fileRef = A792C75518F9EBA90095EA22 /* UITableView+NNSectionsDiff.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5516165125BE2AF9006BD882 /* NNFetchedResultsControllerDiffAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = A792C75018F9EBA90095EA22 /* NNFetchedResultsControllerDiffAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5516169025BE325F006BD882 /* NNDiffChangeType.h in Headers */ = {isa = PBXBuildFile; fileRef = A71BC2771A340676001DADB7 /* NNDiffChangeType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5516169325BE3280006BD882 /* NNDiffCalculator.h in Headers */ = {isa = PBXBuildFile; fileRef = A71BC26B1A33D9F9001DADB7 /* NNDiffCalculator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5516169625BE32A4006BD882 /* NNDiffReloadOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = A7CE14161A35EB6C009608C4 /* NNDiffReloadOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5516169925BE32AB006BD882 /* NNTableViewDiffReloadAnimations.h in Headers */ = {isa = PBXBuildFile; fileRef = A7CE14131A35EA3B009608C4 /* NNTableViewDiffReloadAnimations.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		554F9F8B25BE1958006E83AB /* UIKitWorkarounds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 554F9F8A25BE1958006E83AB /* UIKitWorkarounds.framework */; };
 		554F9F8C25BE1958006E83AB /* UIKitWorkarounds.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 554F9F8A25BE1958006E83AB /* UIKitWorkarounds.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		559A60F625BE11EE00AB7053 /* ArrayDiff.h in Headers */ = {isa = PBXBuildFile; fileRef = 559A60F425BE11EE00AB7053 /* ArrayDiff.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -304,14 +308,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				5516165125BE2AF9006BD882 /* NNFetchedResultsControllerDiffAdapter.h in Headers */,
+				5516169925BE32AB006BD882 /* NNTableViewDiffReloadAnimations.h in Headers */,
 				5516163625BE2A96006BD882 /* NNSection.h in Headers */,
 				5516164525BE2AC5006BD882 /* NNArrayDiffCalculator.h in Headers */,
+				5516169625BE32A4006BD882 /* NNDiffReloadOptions.h in Headers */,
 				5516163925BE2AA4006BD882 /* NNArrayDiff.h in Headers */,
 				559A60F625BE11EE00AB7053 /* ArrayDiff.h in Headers */,
 				5516163C25BE2AAE006BD882 /* NNArrayDiffChange.h in Headers */,
 				5516164E25BE2AF0006BD882 /* UITableView+NNSectionsDiff.h in Headers */,
 				5516164B25BE2AE1006BD882 /* UICollectionView+NNSectionsDiff.h in Headers */,
 				5516163F25BE2AB4006BD882 /* NNSectionsDiff.h in Headers */,
+				5516169025BE325F006BD882 /* NNDiffChangeType.h in Headers */,
+				5516169325BE3280006BD882 /* NNDiffCalculator.h in Headers */,
 				5516164225BE2AB9006BD882 /* NNSectionsDiffChange.h in Headers */,
 				5516164825BE2ACB006BD882 /* NNSectionsDiffCalculator.h in Headers */,
 			);
