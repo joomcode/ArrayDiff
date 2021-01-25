@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "NNDiffChangeType.h"
+#import <ArrayDiff/NNDiffChangeType.h>
 
 @interface NNArrayDiffChange : NSObject <NSCopying>
 

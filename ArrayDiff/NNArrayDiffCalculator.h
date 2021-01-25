@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Nick Tymchenko. All rights reserved.
 //
 
-#import "NNDiffCalculator.h"
+#import <ArrayDiff/NNDiffCalculator.h>
 
 @class NNArrayDiff;
 

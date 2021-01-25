@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Nick Tymchenko. All rights reserved.
 //
 
-#import "NNSectionsDiff.h"
+#import <ArrayDiff/NNSectionsDiff.h>
 
 @import CoreData;
 
