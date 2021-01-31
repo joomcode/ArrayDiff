@@ -22,7 +22,6 @@
 		5516169625BE32A4006BD882 /* NNDiffReloadOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = A7CE14161A35EB6C009608C4 /* NNDiffReloadOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5516169925BE32AB006BD882 /* NNTableViewDiffReloadAnimations.h in Headers */ = {isa = PBXBuildFile; fileRef = A7CE14131A35EA3B009608C4 /* NNTableViewDiffReloadAnimations.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		554F9F8B25BE1958006E83AB /* UIKitWorkarounds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 554F9F8A25BE1958006E83AB /* UIKitWorkarounds.framework */; };
-		554F9F8C25BE1958006E83AB /* UIKitWorkarounds.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 554F9F8A25BE1958006E83AB /* UIKitWorkarounds.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		559A60F625BE11EE00AB7053 /* ArrayDiff.h in Headers */ = {isa = PBXBuildFile; fileRef = 559A60F425BE11EE00AB7053 /* ArrayDiff.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		559A60FC25BE121B00AB7053 /* NNFetchedResultsControllerDiffAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = A792C75118F9EBA90095EA22 /* NNFetchedResultsControllerDiffAdapter.m */; };
 		559A60FF25BE122100AB7053 /* NNDiffReloader.m in Sources */ = {isa = PBXBuildFile; fileRef = A741ECC1190C814000197F44 /* NNDiffReloader.m */; };
@@ -51,20 +50,6 @@
 		A7C71FCA1AA8A830000DB108 /* NNSectionsDiffSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = A7C71FC91AA8A830000DB108 /* NNSectionsDiffSpec.m */; };
 		A7C71FCC1AA8AA6D000DB108 /* NNSectionsDiffCalculatorSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = A7C71FCB1AA8AA6D000DB108 /* NNSectionsDiffCalculatorSpec.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		554F9F8D25BE1958006E83AB /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				554F9F8C25BE1958006E83AB /* UIKitWorkarounds.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		2F44AD71A1DE55DB2928F27A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -336,7 +321,6 @@
 				559A60EE25BE11EE00AB7053 /* Sources */,
 				559A60EF25BE11EE00AB7053 /* Frameworks */,
 				559A60F025BE11EE00AB7053 /* Resources */,
-				554F9F8D25BE1958006E83AB /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
