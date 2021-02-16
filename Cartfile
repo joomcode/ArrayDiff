@@ -1,1 +1,1 @@
-git "file:///Users/andrey/joomcode/UIKitWorkarounds/" "master"
+github "https://github.com/joomcode/UIKitWorkarounds" "feature/carthage"
