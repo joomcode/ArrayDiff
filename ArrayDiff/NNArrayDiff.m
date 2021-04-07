@@ -13,7 +13,7 @@
     @protected
     NSIndexSet *_deleted;
     NSIndexSet *_inserted;
-    NSSet *_changed;
+    NSSet<NNArrayDiffChange *> *_changed;
 }
 
 #pragma mark - Init
@@ -95,15 +95,15 @@
 }
 
 - (NSString *)descriptionForIndexes:(NSIndexSet *)indexSet {
-    NSMutableArray *strings = [NSMutableArray array];
+    NSMutableArray<NSString *> *strings = [NSMutableArray array];
     [indexSet enumerateIndexesUsingBlock:^(NSUInteger idx, BOOL *stop) {
         [strings addObject:[NSString stringWithFormat:@"%@", @(idx)]];
     }];
     return [strings componentsJoinedByString:@", "];
 }
 
-- (NSString *)descriptionForChanged:(NSSet *)set {
-    NSArray *sortedChanges = [[set allObjects] sortedArrayUsingComparator:^NSComparisonResult(NNArrayDiffChange *obj1, NNArrayDiffChange *obj2) {
+- (NSString *)descriptionForChanged:(NSSet<NNArrayDiffChange *> *)set {
+    NSArray<NNArrayDiffChange *> *sortedChanges = [[set allObjects] sortedArrayUsingComparator:^NSComparisonResult(NNArrayDiffChange *obj1, NNArrayDiffChange *obj2) {
         if (obj1.before != obj2.before) {
             return obj1.before < obj2.before ? NSOrderedAscending : NSOrderedDescending;
         }
@@ -125,7 +125,7 @@
 
 @implementation NNMutableArrayDiff
 
-- (instancetype)initWithDeleted:(NSIndexSet *)deleted inserted:(NSIndexSet *)inserted changed:(NSSet *)changed {
+- (instancetype)initWithDeleted:(NSIndexSet *)deleted inserted:(NSIndexSet *)inserted changed:(NSSet<NNArrayDiffChange *> *)changed {
     self = [super initWithDeleted:deleted inserted:inserted changed:changed];
     if (!self) return nil;
     

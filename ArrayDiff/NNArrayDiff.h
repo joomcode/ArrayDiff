@@ -8,15 +8,17 @@
 
 #import <Foundation/Foundation.h>
 
+@class NNArrayDiffChange;
+
 @interface NNArrayDiff : NSObject <NSCopying, NSMutableCopying>
 
 @property (nonatomic, copy, readonly) NSIndexSet *deleted;
 @property (nonatomic, copy, readonly) NSIndexSet *inserted;
-@property (nonatomic, copy, readonly) NSSet *changed;
+@property (nonatomic, copy, readonly) NSSet<NNArrayDiffChange *> *changed;
 
 - (instancetype)initWithDeleted:(NSIndexSet *)deleted
                        inserted:(NSIndexSet *)inserted
-                        changed:(NSSet *)changed;
+                        changed:(NSSet<NNArrayDiffChange *> *)changed;
 
 @end
 
@@ -25,6 +27,6 @@
 
 @property (nonatomic, copy, readonly) NSMutableIndexSet *deleted;
 @property (nonatomic, copy, readonly) NSMutableIndexSet *inserted;
-@property (nonatomic, copy, readonly) NSMutableSet *changed;
+@property (nonatomic, copy, readonly) NSMutableSet<NNArrayDiffChange *> *changed;
 
 @end

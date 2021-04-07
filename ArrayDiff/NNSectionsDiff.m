@@ -40,6 +40,7 @@
     _changed = [changed copy] ?: [NSSet set];
     
     [self sanitizeDeletedAndInsertedSections];
+    [self sanitizeChangedItems];
     
     return self;
 }
@@ -54,6 +55,17 @@
     
     _inserted = [_inserted objectsPassingTest:^BOOL(NSIndexPath *obj, BOOL *stop) {
         return ![_insertedSections containsIndex:[obj indexAtPosition:0]];
+    }];
+}
+
+- (void)sanitizeChangedItems {
+    // If a section has been moved(deleted & inserted), it makes no sense to have separate change event for its rows
+    
+    _changed = [_changed objectsPassingTest:^BOOL(NNSectionsDiffChange *obj, BOOL *stop) {
+        NSIndexPath *before = obj.before;
+        NSIndexPath *after = obj.after;
+        
+        return !([_deletedSections containsIndex:before.section] && [_insertedSections containsIndex:after.section]);
     }];
 }
 
