@@ -8,6 +8,7 @@
 
 #import "NNSectionsDiff.h"
 #import "NNSectionsDiffChange.h"
+#import <UIKit/UIKit.h>
 
 @implementation NNSectionsDiff {
     @protected
