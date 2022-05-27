@@ -1,1 +1,2 @@
-github "joomcode/UIKitWorkarounds" "af391d7ff67defd0de1d27bf0c0938e850bfd06d"
+github "specta/expecta" "fc2dd8bf29b8e4edbfeb4639a98b5d87bea03e19"
+github "specta/specta" "v2.0.0"

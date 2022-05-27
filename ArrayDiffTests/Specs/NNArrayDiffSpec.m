@@ -7,6 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
+#import <Specta/Specta.h>
 
 SpecBegin(NNArrayDiff)
 
