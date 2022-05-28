@@ -38,8 +38,6 @@
 		559A612325BE12A100AB7053 /* NNArrayDiffCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = A71BC26F1A33DB28001DADB7 /* NNArrayDiffCalculator.m */; };
 		559A612625BE12A300AB7053 /* NNSectionsDiffCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = A71BC2721A33EA92001DADB7 /* NNSectionsDiffCalculator.m */; };
 		559A612925BE12A600AB7053 /* NNSection.m in Sources */ = {isa = PBXBuildFile; fileRef = A7C5F5C7190476FA0087C063 /* NNSection.m */; };
-		774861552840D70A0066BAE3 /* NNSwizzlingUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 774861532840D70A0066BAE3 /* NNSwizzlingUtils.m */; };
-		774861562840D70A0066BAE3 /* NNSwizzlingUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 774861542840D70A0066BAE3 /* NNSwizzlingUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7748615C2840D78A0066BAE3 /* NNCollectionViewReloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 774861572840D78A0066BAE3 /* NNCollectionViewReloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7748615D2840D78A0066BAE3 /* NNTableViewReloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 774861582840D78A0066BAE3 /* NNTableViewReloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7748615E2840D78A0066BAE3 /* NNCellCustomReloadBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = 774861592840D78A0066BAE3 /* NNCellCustomReloadBlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -70,8 +68,6 @@
 		559A60F225BE11EE00AB7053 /* ArrayDiff.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ArrayDiff.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		559A60F425BE11EE00AB7053 /* ArrayDiff.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArrayDiff.h; sourceTree = "<group>"; };
 		559A60F525BE11EE00AB7053 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		774861532840D70A0066BAE3 /* NNSwizzlingUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNSwizzlingUtils.m; sourceTree = "<group>"; };
-		774861542840D70A0066BAE3 /* NNSwizzlingUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNSwizzlingUtils.h; sourceTree = "<group>"; };
 		774861572840D78A0066BAE3 /* NNCollectionViewReloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNCollectionViewReloader.h; sourceTree = "<group>"; };
 		774861582840D78A0066BAE3 /* NNTableViewReloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNTableViewReloader.h; sourceTree = "<group>"; };
 		774861592840D78A0066BAE3 /* NNCellCustomReloadBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNCellCustomReloadBlock.h; sourceTree = "<group>"; };
@@ -242,8 +238,6 @@
 				A71BC2721A33EA92001DADB7 /* NNSectionsDiffCalculator.m */,
 				A7C5F5C6190476FA0087C063 /* NNSection.h */,
 				A7C5F5C7190476FA0087C063 /* NNSection.m */,
-				774861542840D70A0066BAE3 /* NNSwizzlingUtils.h */,
-				774861532840D70A0066BAE3 /* NNSwizzlingUtils.m */,
 				774861612840D78F0066BAE3 /* Reloaders */,
 				559A60F525BE11EE00AB7053 /* Info.plist */,
 			);
@@ -344,7 +338,6 @@
 				5516164525BE2AC5006BD882 /* NNArrayDiffCalculator.h in Headers */,
 				5516169625BE32A4006BD882 /* NNDiffReloadOptions.h in Headers */,
 				5516163925BE2AA4006BD882 /* NNArrayDiff.h in Headers */,
-				774861562840D70A0066BAE3 /* NNSwizzlingUtils.h in Headers */,
 				559A60F625BE11EE00AB7053 /* ArrayDiff.h in Headers */,
 				5516163C25BE2AAE006BD882 /* NNArrayDiffChange.h in Headers */,
 				7748616B2840D7B80066BAE3 /* NNReloadOperations.h in Headers */,
@@ -466,7 +459,6 @@
 				559A610225BE122300AB7053 /* NNDiffTableViewReloader.m in Sources */,
 				559A610525BE122600AB7053 /* NNDiffCollectionViewReloader.m in Sources */,
 				559A612925BE12A600AB7053 /* NNSection.m in Sources */,
-				774861552840D70A0066BAE3 /* NNSwizzlingUtils.m in Sources */,
 				559A610B25BE122C00AB7053 /* NNTableViewDiffReloadAnimations.m in Sources */,
 				559A611425BE127F00AB7053 /* NNArrayDiff.m in Sources */,
 				559A611725BE129700AB7053 /* NNArrayDiffChange.m in Sources */,

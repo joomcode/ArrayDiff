@@ -27,5 +27,3 @@ FOUNDATION_EXPORT const unsigned char ArrayDiffVersionString[];
 
 #import <ArrayDiff/NNTableViewReloader.h>
 #import <ArrayDiff/NNCollectionViewReloader.h>
-
-#import <ArrayDiff/NNSwizzlingUtils.h>
