@@ -7,7 +7,7 @@
 //
 
 #import "NNDiffTableViewReloader.h"
-#import <UIKitWorkarounds/UIKitWorkarounds.h>
+#import "NNTableViewReloader.h"
 
 @interface NNDiffTableViewReloader ()
 

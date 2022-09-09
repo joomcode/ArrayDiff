@@ -24,3 +24,6 @@ FOUNDATION_EXPORT const unsigned char ArrayDiffVersionString[];
 #import <ArrayDiff/NNFetchedResultsControllerDiffAdapter.h>
 #import <ArrayDiff/UITableView+NNSectionsDiff.h>
 #import <ArrayDiff/UICollectionView+NNSectionsDiff.h>
+
+#import <ArrayDiff/NNTableViewReloader.h>
+#import <ArrayDiff/NNCollectionViewReloader.h>
