@@ -202,7 +202,9 @@
     for (NNIndexPathReloadOperation *operation in operations.indexPathOperations) {
         if (operation.type == NNReloadOperationTypeCustomReload) {
             id cell = [self.collectionView cellForItemAtIndexPath:operation.before];
-            self.cellCustomReloadBlock(cell, operation.after);
+            if (cell) {
+                self.cellCustomReloadBlock(cell, operation.after);
+            }
         }
     }
 }
